@@ -65,7 +65,7 @@ fn ends_token(cur: char, next: char) -> bool {
 }
 
 #[pymodule]
-fn pylex_lite(_py: Python, m: &PyModule) -> PyResult<()> {
+fn pylexlite(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(is_char_symbol, m)?)?;
     m.add_function(wrap_pyfunction!(is_char_operator, m)?)?;
     m.add_function(wrap_pyfunction!(is_char_whitespace, m)?)?;

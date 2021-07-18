@@ -1,1 +1,1 @@
-# pylex-lite
+# pylex_lite

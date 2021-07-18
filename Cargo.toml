@@ -1,11 +1,11 @@
 [package]
-name = "pylex-lite"
+name = "pylexlite"
 version = "0.1.0"
 authors = ["jakeroggenbuck <jakeroggenbuck2@gmail.com>"]
 edition = "2018"
 
 [lib]
-name = "pylex_lite"
+name = "pylexlite"
 crate-type = ["cdylib"]
 
 [dependencies]
